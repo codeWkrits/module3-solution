@@ -2,3 +2,48 @@ h1 {
   color: black;
   text-align: center;
 }
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #333;  /* Dark background */
+  padding: 0 20px;
+  color: white;
+} 
+/* Logo */
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+/* Nav links container */
+.nav-links {
+  display: flex;
+  list-style: none; /* Remove bullets */
+}
+
+/* Each link spacing */
+.nav-links li {
+  margin-left: 20px;
+}
+
+/* Links appearance */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #ff6347; /* Tomato color on hover */
+}
